@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/karanpratapsingh_PV1/static/css/main.67ab60d1.css",
+    "main.js": "/karanpratapsingh_PV1/static/js/main.0b28b2c4.js",
+    "static/media/me.jpg": "/karanpratapsingh_PV1/static/media/me.d173b1640f7a286b73dd.jpg",
+    "static/media/whatsappClone.png": "/karanpratapsingh_PV1/static/media/whatsappClone.9ce99b8ae7e7e71c222c.png",
+    "static/media/contactManager.png": "/karanpratapsingh_PV1/static/media/contactManager.5cd19bad6061eeddbba5.png",
+    "static/media/notesApp.png": "/karanpratapsingh_PV1/static/media/notesApp.31364341964ea9de2b4f.png",
+    "static/media/bubbleGame.png": "/karanpratapsingh_PV1/static/media/bubbleGame.86657430a9a440e71ecb.png",
+    "static/media/Resume.pdf": "/karanpratapsingh_PV1/static/media/Resume.7168369cb9644544fdaa.pdf",
+    "static/media/snakeGame.png": "/karanpratapsingh_PV1/static/media/snakeGame.de864d25defcf3aa4439.png",
+    "index.html": "/karanpratapsingh_PV1/index.html",
+    "main.67ab60d1.css.map": "/karanpratapsingh_PV1/static/css/main.67ab60d1.css.map",
+    "main.0b28b2c4.js.map": "/karanpratapsingh_PV1/static/js/main.0b28b2c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67ab60d1.css",
+    "static/js/main.0b28b2c4.js"
+  ]
+}
