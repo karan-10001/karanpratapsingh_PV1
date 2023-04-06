@@ -1,0 +1,25 @@
+.bubble {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: #47cfaf;
+  box-shadow: 0.5px 0.5px 12px white, -0.5px -0.5px 12px white,
+    inset 1px 1px 5px gray, inset -1px -1px 30px black;
+  border-radius: 50%;
+  padding: 15px;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+/* media query for mobile screen */
+@media only screen and (max-width: 640px) {
+  .bubble {
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 10px;
+  }
+}
