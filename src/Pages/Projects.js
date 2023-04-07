@@ -1,11 +1,11 @@
 import React from "react";
 import StatCard from "../Components/StatCard";
 import Layout from "../Layout/Layout";
-import contactManager from "../Assets/contactManager.png";
-import bubbleGame from "../Assets/bubbleGame.png";
-import snakeGame from "../Assets/snakeGame.png";
-import whatsappClone from "../Assets/whatsappClone.png";
-import notesApp from "../Assets/notesApp.png";
+import dsaVisualizer from "../Assets/dsaVisualizer.png";
+import musicPlayer from "../Assets/musicPlayer.png";
+import elearning from "../Assets/elearning.png";
+import bloodBank from "../Assets/bloodBank.png";
+import textUtils from "../Assets/textUtils.png";
 import { SiGithub } from "react-icons/si";
 import { HiStatusOnline } from "react-icons/hi";
 
@@ -13,23 +13,23 @@ const Projects = () => {
   const projectOverview = [
     {
       name: "HTML + CSS",
-      number: 15,
+      number: 10,
     },
     {
-      name: "Tailwind CSS",
-      number: 5,
+      name: "Androidstudio",
+      number: 1,
     },
     {
       name: "JavaScript",
-      number: 16,
+      number: 10,
     },
     {
       name: "ReactJS",
-      number: 5,
+      number: 4,
     },
     {
       name: "MERN",
-      number: 2,
+      number: 1,
     },
   ];
 
@@ -43,7 +43,7 @@ const Projects = () => {
           Project statistics data can be verified by visiting{" "}
           <a
             className="link text-[#64ffda]"
-            href="https://github.com/Vinay-Pratap-Singh"
+            href="https://github.com/karan-10001"
             target={"_blank"}
           >
             Github Profile
@@ -71,7 +71,7 @@ const Projects = () => {
             {/* for project 1 */}
             <div className="flex flex-col sm:flex-row items-center gap-10 text-white">
               <img
-                src={contactManager}
+                src={dsaVisualizer}
                 className="sm:w-1/3 border-2 border-[#64ffda] cursor-pointer p-2 transition-all ease-in-out hover:p-0 rounded-md"
                 alt="image"
               />
@@ -80,11 +80,11 @@ const Projects = () => {
               <div className="flex flex-col gap-2">
                 <h1 className="text-center text-2xl font-semibold mb-4 font-mono">
                   <span className="mr-4 text-xl text-[#64ffda]">01.</span>
-                  Contact Manager
+                  Data Structure Visualizer
                 </h1>
                 <p className="flex items-center gap-2">
                   <h4 className="font-medium">Project Category :</h4>
-                  <p className="text-gray-200">MERN</p>
+                  <p className="text-gray-200">ReactJS</p>
                 </p>
 
                 <div>
@@ -92,21 +92,16 @@ const Projects = () => {
                   <ul className="sm:flex items-center list-disc gap-8 pl-4 flex-wrap text-gray-200">
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Chakra UI</li>
+                    <li>Javascript</li>
                     <li>ReactJS</li>
-                    <li>NodeJS</li>
-                    <li>ExpressJS</li>
-                    <li>MongoDB</li>
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-medium">Description</h4>
                   <p className="text-gray-200">
-                    It is a full-fledged contact manager web app, created using
-                    the MERN stack and Chakra UI. It supports all CRUD features
-                    for user and it's contact with a test account for testing
-                    the app.
+                  Developed a visualizer that can help to visualize commonly used data structures 
+                  and algorithms as a result Algorithms and data structures become easier to understand.
                   </p>
                 </div>
 
@@ -114,20 +109,9 @@ const Projects = () => {
                   <h4 className="font-medium">Key Features</h4>
                   <ul className="text-gray-200 list-disc pl-4">
                     <li>Simple and easy to use user interface</li>
-                    <li>Test account for testing the app</li>
-                    <li>Authentication system for signup and login</li>
-                    <li>
-                      User can create, read, update and delete his account
-                    </li>
-                    <li>User can change his password</li>
-                    <li>
-                      User can create, read, update and delete his contacts
-                    </li>
-                    <li>
-                      Image uploading support for profile of user and it's
-                      contacts
-                    </li>
-                    <li>Dark and light mode support</li>
+                    <li>Users can use custom inputs</li>
+                    <li>Users can add and remove the nodes</li>
+                    <li>Users can visualize data structures in custom motions</li>
                   </ul>
                 </div>
 
@@ -138,7 +122,7 @@ const Projects = () => {
                     data-tip="Repo Link"
                   >
                     <a
-                      href="https://github.com/Vinay-Pratap-Singh/Contact-App-Client"
+                      href="https://github.com/karan-10001/dataStructureVisualizer"
                       target={"_blank"}
                     >
                       <SiGithub size={24} />
@@ -149,7 +133,7 @@ const Projects = () => {
                     data-tip="Live Link"
                   >
                     <a
-                      href="https://contact-app-harvi.netlify.app/"
+                      href="https://karan-10001.github.io/dataStructureVisualizer"
                       target={"_blank"}
                     >
                       <HiStatusOnline size={24} />
@@ -162,7 +146,7 @@ const Projects = () => {
             {/* for project 2 */}
             <div className="flex flex-col sm:flex-row-reverse items-center gap-10 text-white">
               <img
-                src={snakeGame}
+                src={elearning}
                 className="sm:w-1/3 border-2 border-[#64ffda] cursor-pointer p-2 transition-all ease-in-out hover:p-0 rounded-md"
                 alt="image"
               />
@@ -171,11 +155,11 @@ const Projects = () => {
               <div className="flex flex-col gap-2">
                 <h1 className="text-center text-2xl font-semibold mb-4 font-mono">
                   <span className="mr-4 text-xl text-[#64ffda]">02.</span>
-                  Snake Game
+                  eLearning Web Application
                 </h1>
                 <p className="flex items-center gap-2">
                   <h4 className="font-medium">Project Category :</h4>
-                  <p className="text-gray-200">JavaScript</p>
+                  <p className="text-gray-200">Full Stack</p>
                 </p>
 
                 <div>
@@ -184,15 +168,18 @@ const Projects = () => {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>SQL</li>
+                    <li>MySQL</li>
+                  
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-medium">Description</h4>
                   <p className="text-gray-200">
-                    It is a snake game inspired from the nokia mobile snake game
-                    in which the user has to control the snake and gather it's
-                    food to reach next level.
+                  Developed e-learning interactiv website which offers online courses, technical
+                  articles and often used code-snippets.
                   </p>
                 </div>
 
@@ -201,10 +188,10 @@ const Projects = () => {
                   <ul className="text-gray-200 list-disc pl-4">
                     <li>Simple and easy to use user interface</li>
                     <li>
-                      Game has 10 different level with different complexity
+                      Commanly used code snippets are available.
                     </li>
-                    <li>Bonus food for quickly increasing the score</li>
-                    <li>Dynamic walls for increasing the game complexity</li>
+                    <li>Embedded integrated development environment (IDE) to run and test the code. </li>
+                    <li>Courses can be availble for self learning and live .</li>
                   </ul>
                 </div>
 
@@ -215,7 +202,7 @@ const Projects = () => {
                     data-tip="Repo Link"
                   >
                     <a
-                      href="https://github.com/Vinay-Pratap-Singh/Snake-using-Canvas"
+                      href="https://github.com/karan-10001/Codeyard_v2"
                       target={"_blank"}
                     >
                       <SiGithub size={24} />
@@ -225,7 +212,7 @@ const Projects = () => {
                     className="hover:text-[#64ffda] transition-all ease-in-out duration-300 tooltip tooltip-accent"
                     data-tip="Live Link"
                   >
-                    <a href="https://harvisnake.netlify.app/" target={"_blank"}>
+                    <a href="https://karan-10001.github.io/Codeyard_v2" target={"_blank"}>
                       <HiStatusOnline size={24} />
                     </a>
                   </button>
@@ -236,7 +223,7 @@ const Projects = () => {
             {/* for project 3 */}
             <div className="flex flex-col sm:flex-row items-center gap-10 text-white">
               <img
-                src={bubbleGame}
+                src={musicPlayer}
                 className="sm:w-1/3 border-2 border-[#64ffda] cursor-pointer p-2 transition-all ease-in-out hover:p-0 rounded-md"
                 alt="image"
               />
@@ -245,7 +232,7 @@ const Projects = () => {
               <div className="flex flex-col gap-2">
                 <h1 className="text-center text-2xl font-semibold mb-4 font-mono">
                   <span className="mr-4 text-xl text-[#64ffda]">03.</span>
-                  Bubble Game
+                  Music Player Application
                 </h1>
                 <p className="flex items-center gap-2">
                   <h4 className="font-medium">Project Category :</h4>
@@ -258,28 +245,27 @@ const Projects = () => {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
+                    <li>JQuery</li>
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-medium">Description</h4>
                   <p className="text-gray-200">
-                    It is a bubble game, inspired from the typing master typing
-                    test game. It is a simple, easy to use game for increasing
-                    the typing speed by having some fun to.
+                  Designed and developed a music player with demonstrative, customizable
+                  user interface and personalized playlist.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-medium">Key Features</h4>
                   <ul className="text-gray-200 list-disc pl-4">
-                    <li>Simple and easy to use user interface</li>
+                    <li>Demonstrative and cool user interface</li>
                     <li>
-                      Dynamic speed increment for bubbles with increment in
-                      score
+                      Users can customize user interface colors.
                     </li>
-                    <li>Five life support for user to play</li>
-                    <li>Negative scoring on wrong key press</li>
+                    <li>User can have customizable playlist</li>
+                    <li>Usres can create favourite songs playlist</li>
                   </ul>
                 </div>
 
@@ -290,7 +276,7 @@ const Projects = () => {
                     data-tip="Repo Link"
                   >
                     <a
-                      href="https://github.com/Vinay-Pratap-Singh/Bubble-Game"
+                      href="https://github.com/karan-10001/musicPlayer_v2"
                       target={"_blank"}
                     >
                       <SiGithub size={24} />
@@ -301,7 +287,7 @@ const Projects = () => {
                     data-tip="Live Link"
                   >
                     <a
-                      href="https://harvi-bubble-game.netlify.app/"
+                      href="https://karan-10001.github.io/musicPlayer_v2"
                       target={"_blank"}
                     >
                       <HiStatusOnline size={24} />
@@ -314,7 +300,7 @@ const Projects = () => {
             {/* for project 4 */}
             <div className="flex flex-col sm:flex-row-reverse items-center gap-10 text-white">
               <img
-                src={whatsappClone}
+                src={bloodBank}
                 className="sm:w-1/3 border-2 border-[#64ffda] cursor-pointer p-2 transition-all ease-in-out hover:p-0 rounded-md"
                 alt="image"
               />
@@ -323,28 +309,38 @@ const Projects = () => {
               <div className="flex flex-col gap-2">
                 <h1 className="text-center text-2xl font-semibold mb-4 font-mono">
                   <span className="mr-4 text-xl text-[#64ffda]">04.</span>
-                  Whatsapp web UI clone
+                  e-Blood Bank Android Application
                 </h1>
                 <p className="flex items-center gap-2">
                   <h4 className="font-medium">Project Category :</h4>
-                  <p className="text-gray-200">ReactJS</p>
+                  <p className="text-gray-200">Androidstudio </p>
                 </p>
 
                 <div>
                   <h4 className="font-medium">Technology Used</h4>
                   <ul className="flex items-center list-disc gap-8 pl-4 flex-wrap text-gray-200">
-                    <li>ReactJS</li>
-                    <li>Chakra UI</li>
+                    <li>Androidstudio</li>
+                    <li>Java</li>
+                    <li>XML</li>
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-medium">Description</h4>
                   <p className="text-gray-200">
-                    It is a user interface clone of the whatsapp web. I had
-                    added some dummy information in it using the JSON file for
-                    having a better visualisation of the project.
+                  Designed and developed online portal where people can find blood donors at the times of need.
                   </p>
+
+                </div>
+                <div>
+                  <h4 className="font-medium">Key Features</h4>
+                  <ul className="text-gray-200 list-disc pl-4">
+                    <li>Users can have individual account with verified mobile number </li>
+                    <li>
+                      Needy people can request for specific group of blood.
+                    </li>
+                    <li>Needy users can contact with dooners</li>
+                  </ul>
                 </div>
 
                 {/* for buttons */}
@@ -354,7 +350,7 @@ const Projects = () => {
                     data-tip="Repo Link"
                   >
                     <a
-                      href="https://github.com/Vinay-Pratap-Singh/Whatsapp-UI-Clone"
+                      href="https://github.com/karan-10001"
                       target={"_blank"}
                     >
                       <SiGithub size={24} />
@@ -365,7 +361,7 @@ const Projects = () => {
                     data-tip="Live Link"
                   >
                     <a
-                      href="https://whatsappuiclone-harvi.netlify.app/"
+                      href="https://drive.google.com/drive/folders/1cq0HI2ztUo99bEHGvwTawRz3IPDJqVNs?usp=sharing"
                       target={"_blank"}
                     >
                       <HiStatusOnline size={24} />
@@ -378,7 +374,7 @@ const Projects = () => {
             {/* for project 5 */}
             <div className="flex flex-col sm:flex-row items-center gap-10 text-white">
               <img
-                src={notesApp}
+                src={textUtils}
                 className="sm:w-1/3 border-2 border-[#64ffda] cursor-pointer p-2 transition-all ease-in-out hover:p-0 rounded-md"
                 alt="image"
               />
@@ -387,7 +383,7 @@ const Projects = () => {
               <div className="flex flex-col gap-2">
                 <h1 className="text-center text-2xl font-semibold mb-4 font-mono">
                   <span className="mr-4 text-xl text-[#64ffda]">05.</span>
-                  Notes App
+                  Text Utility Application
                 </h1>
                 <p className="flex items-center gap-2">
                   <h4 className="font-medium">Project Category :</h4>
@@ -397,17 +393,17 @@ const Projects = () => {
                 <div>
                   <h4 className="font-medium">Technology Used</h4>
                   <ul className="flex items-center list-disc gap-8 pl-4 flex-wrap text-gray-200">
+                    <li>HTML</li>
+                    <li>CSS</li>
                     <li>ReactJS</li>
-                    <li>Tailwind CSS</li>
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-medium">Description</h4>
                   <p className="text-gray-200">
-                    It is a notes keeping app inspired from the google keep
-                    mobile app. Any user can create a note to remember his tasks
-                    easily.
+                    It is text utility application and It is designed to help users to manipulate and manage 
+                    text data such as formating, word count, reading time.
                   </p>
                 </div>
 
@@ -415,9 +411,11 @@ const Projects = () => {
                   <h4 className="font-medium">Key Features</h4>
                   <ul className="text-gray-200 list-disc pl-4">
                     <li>Simple and easy to use user interface</li>
-                    <li>Multiple color option for the notes card</li>
-                    <li>User can create, read, update and delete notes</li>
-                    <li>Local storage support for storing the notes data</li>
+                    <li>Users can input custom paragraph of text in the box.</li>
+                    <li>User can see the number of characters, sentences and paragraph.</li>
+                    <li> Users can also see the how much time it will take to read.</li>
+                    <li>Through this application users can also remove whiteshapces from the paragraph.</li>
+                    <li>Day and Night mode feature available.</li>
                   </ul>
                 </div>
 
@@ -428,7 +426,7 @@ const Projects = () => {
                     data-tip="Repo Link"
                   >
                     <a
-                      href="https://github.com/Vinay-Pratap-Singh/Notes-Keeping-App"
+                      href="https://github.com/karan-10001/textUtilityApplication"
                       target={"_blank"}
                     >
                       <SiGithub size={24} />
@@ -439,7 +437,7 @@ const Projects = () => {
                     data-tip="Live Link"
                   >
                     <a
-                      href="https://notes-harvi.netlify.app/"
+                      href="https://karan-10001.github.io/textUtilityApplication"
                       target={"_blank"}
                     >
                       <HiStatusOnline size={24} />
@@ -453,7 +451,7 @@ const Projects = () => {
             <button className="border-2 border-[#1aba95] bg-[#1aba95] px-5 mb-16 sm:mb-0 py-2 rounded-md font-semibold w-fit mx-auto text-white transition-all ease-in-out duration-300 hover:-translate-y-2">
               <a
                 className="bg-transparent"
-                href="https://github.com/Vinay-Pratap-Singh"
+                href="https://github.com/karan-10001"
                 target={"_blank"}
               >
                 Show More

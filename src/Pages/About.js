@@ -11,18 +11,19 @@ const About = () => {
         <div className="sm:w-2/3 mx-6 sm:mx-0">
           Hello! I am Karan Pratap Singh, a passionate software engineer.
           Currently working and exploring more on{" "}
-          <span className="text-[#64ffda]">Full Stack Web Development</span> in
-          which I am more focused toward the{" "}
-          <span className="text-[#64ffda]">Frontend Part</span>. <br />
+          <span className="text-[#64ffda]">Full Stack Web Development</span> , {" "}
+          <span className="text-[#64ffda]">Programming</span> and {" "}
+          <span className="text-[#64ffda]">Data Analytics</span>. <br />
           My core skills are mostly based on{" "}
-          <span className="text-[#64ffda]">JavaScript</span>, which is the love
+          <span className="text-[#64ffda]">Web Development</span> and{" "}
+          <span className="text-[#64ffda]">Problem Solving</span> , which is the love
           of my programming life. <br />
           I am also looking forward to collaborate with like minded people on
           projects to build some real-world problem solving tools. Also trying
           to contribute more in open source to serve the community by my
           knowledge and experience. <br /> <br />I am also open to work for any{" "}
           <span className="text-[#64ffda]">Freelancing Project</span> based on
-          my skill set{" "}
+          my skill set{" "} 
           <span role="img" aria-label="smile">
             😊
           </span>
@@ -44,9 +45,9 @@ const About = () => {
         {/* for image */}
         <div className="sm:w-1/3 my-4 sm:my-0 h-[22rem] border-2 border-[#64ffda] cursor-pointer rounded-md">
           <img
-            className="object-cover w-full h-full p-2 hover:transition-all hover:p-0 rounded-md"
+            className="object-cover w-full h-full p-2 hover:transition-all hover:p-1 rounded-md"
             src={userImage}
-            alt="image"
+            alt=" "
           />
         </div>
       </div>

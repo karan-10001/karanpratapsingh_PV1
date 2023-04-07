@@ -3,12 +3,6 @@
 ## **Overview**
 I had heared a lot from seniors and other fellow developers that a developer should have a portfolio website through which he can demostrate and present his skills, also can provide people a way to connect with himself. 
 
-After checking some portfolio websites, I decided to create my own and this project is a result of that.
-
-## **Technology Used**
-1. ReactJS
-2. Tailwind CSS
-
 ## **Some key features**
 1. A simple and easy to use user interface.
 2. Skills page has some dynamic bubbles for showcasing my skills.
@@ -38,4 +32,4 @@ After checking some portfolio websites, I decided to create my own and this proj
 ![output5](./output/output5.png)
 
 ## **Live Link**
-[<img src="https://img.shields.io/badge/-Visit%20Website-brightgreen"/>](https://harvi.me/)
+[<img src="https://img.shields.io/badge/-Visit%20Website-brightgreen"/>]()

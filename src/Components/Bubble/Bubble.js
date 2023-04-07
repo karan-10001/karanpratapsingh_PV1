@@ -1,12 +1,14 @@
 import React, { useEffect } from "react";
 import "./Bubble.css";
-import { FaHtml5, FaCss3Alt, FaReact, FaNode } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaNode ,FaPython, FaJava,FaDatabase, FaBootstrap} from "react-icons/fa";
 import {
   SiTailwindcss,
   SiExpress,
   SiMongodb,
-  SiChakraui,
+  SiAndroidstudio,
   SiGit,
+  SiC,
+  SiCplusplus
 } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
 
@@ -50,9 +52,7 @@ const Bubble = (props) => {
       )}
 
       {/* for chakra ui */}
-      {props.name === "SiChakraui" && (
-        <SiChakraui id={props.name} className="bubble" />
-      )}
+     
 
       {/* for javascript */}
       {props.name === "TbBrandJavascript" && (
@@ -79,6 +79,15 @@ const Bubble = (props) => {
 
       {/* for git */}
       {props.name === "SiGit" && <SiGit id={props.name} className="bubble" />}
+
+      {props.name ==="FaPython" && <FaPython id={props.name} className="bubble"/>}
+
+      {props.name ==="FaJava" && <FaJava id={props.name} className="bubble"/>}
+      {props.name ==="FaDatabase" && <FaDatabase id={props.name} className="bubble"/>}
+      {props.name==="FaBootstrap" && <FaBootstrap id={props.name} className="bubble"/>}
+      {props.name==="SiAndroidstudio" && <SiAndroidstudio id={props.name} className="bubble"/>}
+      {props.name==="SiCplusplus" && <SiCplusplus id={props.name} className="bubble" />}
+      {props.name==="SiC" && <SiC id={props.name} className="bubble" />}
     </div>
   );
 };

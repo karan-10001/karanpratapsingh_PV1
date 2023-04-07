@@ -56,6 +56,11 @@ const Contact = () => {
           <button type="submit" className="border-2 border-[#1aba95] bg-[#1aba95] px-5 py-2 rounded-md font-semibold">Submit</button>
         </form>
       </div>
+      <center>
+        <p>
+          <h6><u>Developed by karan.</u></h6>
+        </p>
+      </center>
     </Layout>
   );
 };

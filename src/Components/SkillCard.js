@@ -1,11 +1,12 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaReact, FaNode } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaNode, FaPython,FaJava, FaDatabase,FaBootstrap } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiExpress,
   SiMongodb,
-  SiChakraui,
   SiGit,
+  SiAndroidstudio,
+  SiCplusplus
 } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
 
@@ -40,13 +41,13 @@ const SkillCard = () => {
       </div>
 
       {/* for chakra ui */}
-      <div
+      {/* <div
         className="text-white flex flex-col items-center justify-center w-28 h-32 rounded-md font-semibold cursor-pointer transition-all ease-in-out duration-500 hover:-translate-y-4"
         style={{ boxShadow: "1px 1px 4px 4px #1aba95" }}
       >
         <SiChakraui size={48} />
         <p>Chakra UI</p>
-      </div>
+      </div> */}
 
       {/* for javascript */}
       <div
@@ -100,6 +101,51 @@ const SkillCard = () => {
       >
         <SiGit size={48} />
         <p>Git</p>
+      </div>
+
+      <div
+        className="text-white flex flex-col items-center justify-center w-28 h-32 rounded-md font-semibold cursor-pointer transition-all ease-in-out duration-500 hover:-translate-y-4"
+        style={{ boxShadow: "1px 1px 4px 4px #1aba95" }}
+      >
+        <SiCplusplus size={48} />
+        <p>C++</p>
+      </div>
+
+      <div
+        className="text-white flex flex-col items-center justify-center w-28 h-32 rounded-md font-semibold cursor-pointer transition-all ease-in-out duration-500 hover:-translate-y-4"
+        style={{ boxShadow: "1px 1px 4px 4px #1aba95" }}
+      >
+        <FaPython size={48} />
+        <p>Python</p>
+      </div>
+      <div
+        className="text-white flex flex-col items-center justify-center w-28 h-32 rounded-md font-semibold cursor-pointer transition-all ease-in-out duration-500 hover:-translate-y-4"
+        style={{ boxShadow: "1px 1px 4px 4px #1aba95" }}
+      >
+        <FaJava size={48} />
+        <p>Java</p>
+      </div>
+      
+      <div
+        className="text-white flex flex-col items-center justify-center w-28 h-32 rounded-md font-semibold cursor-pointer transition-all ease-in-out duration-500 hover:-translate-y-4"
+        style={{ boxShadow: "1px 1px 4px 4px #1aba95" }}
+      >
+        <FaDatabase size={48} />
+        <p>Database</p>
+      </div>
+      <div
+        className="text-white flex flex-col items-center justify-center w-28 h-32 rounded-md font-semibold cursor-pointer transition-all ease-in-out duration-500 hover:-translate-y-4"
+        style={{ boxShadow: "1px 1px 4px 4px #1aba95" }}
+      >
+        <FaBootstrap size={48} />
+        <p>Bootstrap</p>
+      </div>
+      <div
+        className="text-white flex flex-col items-center justify-center w-28 h-32 rounded-md font-semibold cursor-pointer transition-all ease-in-out duration-500 hover:-translate-y-4"
+        style={{ boxShadow: "1px 1px 4px 4px #1aba95" }}
+      >
+        <SiAndroidstudio size={48} />
+        <p>AndroidStudio</p>
       </div>
     </>
   );

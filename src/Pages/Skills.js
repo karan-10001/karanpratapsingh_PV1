@@ -30,8 +30,15 @@ const Skills = () => {
           <Bubble name="FaNode" time="4100" />
           <Bubble name="SiExpress" time="4300" />
           <Bubble name="SiMongodb" time="4500" />
-          <Bubble name="SiChakraui" time="4700" />
           <Bubble name="SiGit" time="4900" />
+          <Bubble name="FaPython" time="4900" />
+          <Bubble name="FaJava" time="4900" />
+          <Bubble name="FaDatabase" time="4900" />
+          <Bubble name="FaBootstrap" time="4900" />
+          <Bubble name="SiAndroidstudio" time="4700" />
+          <Bubble name="SiCplusplus" time="4900"/>
+          <Bubble name="SiC" time="4900" />
+          
         </div>
       ) : (
         <div className="sm:h-[85vh] flex items-center justify-center overflow-hidden relative">
