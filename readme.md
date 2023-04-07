@@ -29,7 +29,9 @@ I had heared a lot from seniors and other fellow developers that a developer sho
 
 5. **Output 5**
 
-![output5](./output/output5.png)
+![output5](./output/put6.png)
+
+
 
 ## **Live Link**
 [<img src="https://img.shields.io/badge/-Visit%20Website-brightgreen"/>]()
